@@ -16,6 +16,9 @@ function CoffeeWithConscience() {
   `
 
   const ConscienceText = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     @media (max-width: 800px) {
       width: 100%;

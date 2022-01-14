@@ -1,4 +1,5 @@
 import './App.css';
+import CoffeeBeanDivider from './CoffeeBeanDivider';
 import CoffeeWithConscience from './CoffeeWithConscience';
 import LogoBar from './LogoBar';
 import PromotionalBanner from './PromotionalBanner';
@@ -11,6 +12,7 @@ function App() {
         <LogoBar />
         <WelcomeComponent />
         <CoffeeWithConscience />
+        <CoffeeBeanDivider />
     </div>
   );
 }
