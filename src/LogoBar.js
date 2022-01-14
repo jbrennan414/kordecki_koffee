@@ -1,4 +1,4 @@
-import styled, { css }from 'styled-components';
+import styled from 'styled-components';
 import coffee_logo from './assets/coffee_logo.png';
 import shopping_bag from './assets/shopping_bag.png'; 
 import hamburger_menu from './assets/hamburger_menu.png';
@@ -6,7 +6,6 @@ import hamburger_menu from './assets/hamburger_menu.png';
 function LogoBar() {
 
     const Bar = styled.div`
-      width: 100%;
       height: 100px;
       display: flex;
       justify-content: space-around;
@@ -22,6 +21,10 @@ function LogoBar() {
     const LargeIcon = styled.img`
     height: 75px;
     width: 75px;
+    @media (max-width: 500px) {
+      height: 18vw;
+      width: 18vw;
+    }
     `
 
   return (
