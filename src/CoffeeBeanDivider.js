@@ -5,36 +5,28 @@ import './App.css';
 function CoffeeBeanDivider() {
 
   const PhotoWrapper = styled.div`
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    position: relative;
   `
 
   const WelcomePhoto = styled.img`
     width: 100%;
   `
 
-  const WelcomeText = styled.h1`
-    color: white;
+  const TextWrapper = styled.div`
     position: absolute;
+    top: 50%;
+    left: 50%;
   `
+
+
 
   return (
     <PhotoWrapper>
-      <>
-        <WelcomeText>
-          Specialty Coffee Roaster In Denver
-        </WelcomeText>
-        <WelcomeText>
-          BioWilly's Beans provides select Seattle venues 
-          with consistently delicious full-bodied coffee. 
-          Our assortment of specialty coffees are rigorously 
-          cupped to maintain consistently high standards, 
-          assuring our customers of an excellent roast in
-          each and every cup and each and every 12 oz bag.
-        </WelcomeText>
-      </>
       <WelcomePhoto src={coffee_beans} alt="coffee background" />
+      <TextWrapper>
+        <h2>are these</h2>
+        <h2>in order</h2>
+      </TextWrapper>
     </PhotoWrapper>
   );
 }
