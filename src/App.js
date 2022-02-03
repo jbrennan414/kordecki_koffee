@@ -4,6 +4,8 @@ import CoffeeWithConscience from './CoffeeWithConscience';
 import LogoBar from './LogoBar';
 import PromotionalBanner from './PromotionalBanner';
 import WelcomeComponent from './WelcomeComponent';
+import GlobalLocalCommunity from './GlobalLocalCommunity';
+import ReliableConsistentTaste from './ReliableConsistentTaste';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <WelcomeComponent />
         <CoffeeWithConscience />
         <CoffeeBeanDivider />
+        <GlobalLocalCommunity />
+        <ReliableConsistentTaste />
     </div>
   );
 }
