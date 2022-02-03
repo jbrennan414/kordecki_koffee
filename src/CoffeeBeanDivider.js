@@ -15,15 +15,24 @@ function CoffeeBeanDivider() {
     width: 100%;
   `
 
-  const WelcomeText = styled.h1`
-    color: white;
-    position: absolute;
-      font-size: 8vw;
+  const WelcomeSection = styled.div`
+    position: absolute;   
   `
 
   return (
     <PhotoWrapper>
-      <WelcomeText>Specialty Coffee Roaster In Denver!</WelcomeText>
+      <WelcomeSection>
+        <h1>Specialty Coffee Roaster In Denver</h1>
+        <h4>Lorem ipsum dolor sit amet. Et quia numquam eos vero
+          modi ut ipsum possimus ea atque temporibus qui autem 
+          atque est debitis odio aut minus explicabo! Ea iste
+          deleniti aut doloremque esse est iste perspiciatis
+          est voluptas quia hic omnis ducimus. Sit facilis 
+          voluptates est velit voluptatem ad consequatur aut 
+          aspernatur libero ut incidunt quos. Et quas aliquam 
+          qui distinctio. 
+        </h4>
+      </WelcomeSection>
       <WelcomePhoto src={coffee_beans} alt="espresso background" />
     </PhotoWrapper>
   );
