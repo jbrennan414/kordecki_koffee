@@ -5,28 +5,26 @@ import './App.css';
 function CoffeeBeanDivider() {
 
   const PhotoWrapper = styled.div`
-    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;  
   `
 
   const WelcomePhoto = styled.img`
     width: 100%;
   `
 
-  const TextWrapper = styled.div`
+  const WelcomeText = styled.h1`
+    color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
+      font-size: 8vw;
   `
-
-
 
   return (
     <PhotoWrapper>
-      <WelcomePhoto src={coffee_beans} alt="coffee background" />
-      <TextWrapper>
-        <h2>are these</h2>
-        <h2>in order</h2>
-      </TextWrapper>
+      <WelcomeText>Specialty Coffee Roaster In Denver!</WelcomeText>
+      <WelcomePhoto src={coffee_beans} alt="espresso background" />
     </PhotoWrapper>
   );
 }
