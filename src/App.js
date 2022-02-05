@@ -8,6 +8,7 @@ import GlobalLocalCommunity from './GlobalLocalCommunity';
 import ReliableConsistentTaste from './ReliableConsistentTaste';
 import BlackDivider from './BlackDivider';
 import TwoPhotos from './TwoPhotos';
+import LinkFooter from './LinkFooter';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ReliableConsistentTaste />
       <BlackDivider />
       <TwoPhotos />
+      <LinkFooter />
     </div>
   );
 }

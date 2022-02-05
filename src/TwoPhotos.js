@@ -10,8 +10,8 @@ function TwoPhotos() {
     `
 
     const PhotoSide = styled.img`
-    object-fit: cover;
-    width: 50%;
+        object-fit: cover;
+        width: 50%;
     `
 
   return (

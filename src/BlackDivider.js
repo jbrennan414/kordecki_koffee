@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import coffee_beans from './assets/backgrounds/coffee_beans.jpg';
 import './App.css';
 
 function BlackDivider() {
