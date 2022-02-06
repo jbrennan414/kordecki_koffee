@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import espresso_background from './assets/backgrounds/espresso_drip.png';
 import './App.css';
 
-function GlobalLocalCommunity() {
+function GlobalLocalCommunity(props) {
 
   const PhotoWrapper = styled.div`
     align-items: center;
@@ -23,8 +22,8 @@ function GlobalLocalCommunity() {
 
   return (
     <PhotoWrapper>
-      <WelcomeText>Global & Local Community</WelcomeText>
-      <WelcomePhoto src={espresso_background} alt="espresso background" />
+      <WelcomeText>{props.text}</WelcomeText>
+      <WelcomePhoto src={props.image} alt="espresso background" />
     </PhotoWrapper>
   );
 }
